@@ -1,0 +1,621 @@
+    1  ls
+    2  dir
+    3  lsblk
+    4  who am i
+    5  who
+    6  history
+    7  cd ..
+    8  cd
+    9  time
+   10  date
+   11  cd
+   12  ls
+   13  ls -a
+   14  ls -lart
+   15  ls -lrt
+   16  time
+   17  date
+   18  lsblk
+   19  user add
+   20  useradd
+   21  vi
+   22  vi 1
+   23  ls
+   24  cat 1
+   25  ls -lart
+   26  ls
+   27  ls -lart
+   28  vi app.sh
+   29  ls -a
+   30  ls -lart
+   31  ls
+   32  pwd
+   33  ls
+   34  cd ..
+   35  pwd
+   36  cd /
+   37  cd/
+   38  cd ec2-user
+   39  cd-
+   40  pwd
+   41  ls
+   42  cd home/
+   43  pwd
+   44  mkdir linux_commands
+   45  pwd
+   46  ls
+   47  cd ec2-user/
+   48  mkdir linux_commands
+   49  cd linux_commands/
+   50  mkdir dir1
+   51  cd dir1
+   52  cd ..
+   53  cd -
+   54  cd ../..
+   55  pwd
+   56  ls
+   57  mkdir -p linux_commands/dir1/licux
+   58  ls
+   59  cd linux_commands/
+   60  la
+   61  ls
+   62  touch abcd.txt
+   63  ls
+   64  ls -l
+   65  ls - l
+   66  ls -l
+   67  ls -lt
+   68  ls -lrt
+   69  ls -lart
+   70  ls -a
+   71  ls -lart
+   72  ls -lt
+   73  ls -las
+   74  cd ../..
+   75  ls
+   76  cd ec2-user/
+   77  ls
+   78  ls -a
+   79  ls -las
+   80  ls -lt
+   81  ls -lart
+   82  history
+   83  touch qwerty.txt class.txt sample.txt
+   84  ls
+   85  ls *.txt
+   86  ls -lt *.txt
+   87  touch abce.txt
+   88  ls *bc*
+   89  ls
+   90  touch abcd.txt
+   91  ls *bc*
+   92  touch report.csv
+   93  touch file{1..10}.txt
+   94  ls
+   95  ls -lrt
+   96  pwd
+   97  cd linux_commands/
+   98  ls
+   99  cd ..
+  100  ls
+  101  cd linux_commands/
+  102  vi editor.txt
+  103  ls
+  104  vi editor.txt 
+  105  history
+  106  date
+  107  cat editor.txt 
+  108  cat -b editor.txt 
+  109  cat -b -n editor.txt 
+  110  vi editor.txt 
+  111  cat -b -n editor.txt 
+  112  cat -n editor.txt 
+  113  ls
+  114  cat editor.txt 
+  115  cat -s editor.txt 
+  116  man
+  117  man cat
+  118  vi editor.txt 
+  119  ls
+  120  vi sample.txt
+  121  ls
+  122  cat sample.txt 
+  123  cls
+  124  clear
+  125  vi sample.txt 
+  126  cat sample.txt 
+  127  vi sample.txt 
+  128  wc editor.txt 
+  129  wc -l editor.txt 
+  130  wc -w editor.txt 
+  131  wc -c editor.txt 
+  132  echo kkkk
+  133  echo "kkkk"
+  134  echo hi\n how are you
+  135  echo *
+  136  echo -e hi\n how are you
+  137  echo -e hi\nhow are you
+  138  echo -e "hi\nhow are you"
+  139  man
+  140  date
+  141  who
+  142  who am i
+  143  history
+  144  ls
+  145  ls *.txt
+  146  ls *.csv
+  147  ls *[b]*
+  148  ls *[i]*
+  149  ls *[0]*
+  150  ls *[0-9]*
+  151  ls *.???
+  152  ls *.??
+  153  ls *.
+  154  echo *
+  155  ls
+  156  echo hi
+  157  echo "hi"
+  158  echo "hi/n tell me"
+  159  echo "hi/ntell me"
+  160  ls
+  161  cd linux_commands/
+  162  ls
+  163  cat sample.txt 
+  164  cat -n sample.txt 
+  165  cat -b sample.txt 
+  166  cat -s sample.txt 
+  167  wc sample.txt 
+  168  wc -l sample.txt 
+  169  wc -w sample.txt 
+  170  wc -c sample.txt 
+  171  vi editor.txt 
+  172  ls
+  173  touch get{1..4}.csv
+  174  ls
+  175  cd ..
+  176  ls
+  177  ls *bc*
+  178  ls *[bc]*
+  179  ls *bc*
+  180  ls *.[bc]*
+  181  ls *.[bct]*
+  182  ls
+  183  cd practice/
+  184  ls
+  185  cd ..
+  186  cd linux_commands/
+  187  ls
+  188  vi editor.txt 
+  189  cat sample.txt 
+  190  cat editor.txt 
+  191  echo -e hi/nhow are you
+  192  echo -e "hi/nhow are you"
+  193  echo -e "hi\nhow are you"
+  194  echo -e hi\nhow are you
+  195  echo -e "hi\nhow are you\n what are you doing"
+  196  mkdir /1/2/3/4/5
+  197  mkdir 1
+  198  mkdir -p /1/2/3/5
+  199  cd 1
+  200  mkdir -p /2/3/5
+  201  pwd
+  202  mkdir -p zx/cv/bn
+  203  ls
+  204  cd
+  205  pwd
+  206  ls
+  207  ls
+  208  mkdir practice
+  209  cd practice
+  210  ls
+  211  ls -a
+  212  ls -lt
+  213  cd ..
+  214  ls
+  215  cd linux_commands/
+  216  ls
+  217  ls -lt
+  218  cd ..
+  219  ls -lart
+  220  history
+  221  touch 123.txt
+  222  ls
+  223  ls -lt
+  224  ls -l
+  225  [ec2-user@ip-172-31-0-69 ~]$ ls -l
+  226  total 4
+  227  ls -la
+  228  pwd
+  229  [ec2-user@ip-172-31-0-69 ~]$ ls -l
+  230  total 4
+  231  -rw-r--r--. 1 ec2-user ec2-user  6 Jul 14 03:51 1
+  232  -rw-r--r--. 1 ec2-user ec2-user  0 Jul 24 07:51 123.txt
+  233  -rw-r--r--. 1 ec2-user ec2-user  0 Jul 24 06:28 abcd.txt
+  234  -rw-r--r--. 1 ec2-user ec2-user  0 Jul 24 06:27 abce.txt
+  235  -rw-r--r--. 1 ec2-user ec2-user  0 Jul 24 05:57 class.txt
+  236  -rw-r--r--. 1 ec2-user ec2-user  0 Jul 24 06:33 file1.txt
+  237  -rw-r--r--. 1 ec2-user ec2-user  0 Jul 24 06:33 file10.txt
+  238  -rw-r--r--. 1 ec2-user ec2-user  0 Jul 24 06:33 file2.txt
+  239  -rw-r--r--. 1 ec2-user ec2-user  0 Jul 24 06:33 file3.txt
+  240  -rw-r--r--. 1 ec2-user ec2-user  0 Jul 24 06:33 file4.txt
+  241  -rw-r--r--. 1 ec2-user ec2-user  0 Jul 24 06:33 file5.txt
+  242  -rw-r--r--. 1 ec2-user ec2-user  0 Jul 24 06:33 file6.txt
+  243  -rw-r--r--. 1 ec2-user ec2-user  0 Jul 24 06:33 file7.txt
+  244  -rw-r--r--. 1 ec2-user ec2-user  0 Jul 24 06:33 file8.txt
+  245  -rw-r--r--. 1 ec2-user ec2-user  0 Jul 24 06:33 file9.txt
+  246  drwxr-xr-x. 3 ec2-user ec2-user 70 Jul 24 07:03 linux_commands
+  247  drwxr-xr-x. 2 ec2-user ec2-user  6 Jul 24 07:50 practice
+  248  -rw-r--r--. 1 ec2-user ec2-user  0 Jul 24 05:57 qwerty.txt
+  249  -rw-r--r--. 1 ec2-user ec2-user  0 Jul 24 06:32 report.csv
+  250  echo how are you
+  251  ls
+  252  echo how are you > file1.txt
+  253  echo I am fine >> file1.txt
+  254  cat file1.txt 
+  255  echo I am fine > append.txt
+  256  ls
+  257  cat append.txt 
+  258  free
+  259  free -h
+  260  free -m
+  261  free -k
+  262  df
+  263  df -h
+  264  df -h .
+  265  ls
+  266  ls -lt
+  267  cd practice/
+  268  ls
+  269  pwd
+  270  cd ..
+  271  cd linux_commands/
+  272  ls
+  273  ls -lt
+  274  lsblk
+  275  free
+  276  free -h
+  277  free -h .
+  278  du
+  279  du -h
+  280  free -h
+  281  free -k
+  282  free -m
+  283  ls -lt
+  284  lsblk
+  285  pwd
+  286  ls
+  287  ls -lt
+  288  ls -lart| tail -
+  289  ls -lart| tail -1
+  290  ls -lrt| tail -1
+  291  ls -lt| head -2| tail -1
+  292  free -h
+  293  du
+  294  du -h
+  295  free -h .
+  296  free * .
+  297  df -h
+  298  df -h .
+  299  cd /
+  300  ls
+  301  ls -lrt
+  302  cd -
+  303  id
+  304  who
+  305  who am i
+  306  ls
+  307  cat report.csv
+  308  cat sample.txt 
+  309  act append.txt 
+  310  cat append.txt 
+  311  cp append.txt file2.txt 
+  312  cat file2.txt 
+  313  cd linux_commands/
+  314  ls
+  315  cat abcd.txt 
+  316  cd ..
+  317  cp file2.txt linux_commands/abcd.txt 
+  318  cat linux_commands/abcd.txt 
+  319  history
+  320  ls
+  321  ll
+  322  cat sample.txt 
+  323  cat report.csv 
+  324  cat qwerty.txt 
+  325  cd linux_commands/
+  326  ll
+  327  cat abcd.txt 
+  328  chmod 777 abcd.txt 
+  329  ll
+  330  chmod u+x abcd.txt 
+  331  ll
+  332  chmod u+x g+r o+r abcd.txt 
+  333  id
+  334  who
+  335  who am i
+  336  chmod a+rwx get1.csv 
+  337  ll
+  338  cat abcd.txt 
+  339  mv abcd.txt get5.txt
+  340  ll
+  341  cp get5.txt get1.csv 
+  342  cat get1.csv 
+  343  cp -i get5.txt get1.csv 
+  344  cp -p get5.txt get4.csv 
+  345  ll
+  346  cp dir1 dir2
+  347  cp -r dir1 dir2
+  348  ll
+  349  cd dir1
+  350  ll
+  351  cd ..
+  352  cd dir2
+  353  ll
+  354  mv -r licux /ec2-user/
+  355  cd licux/
+  356  ll
+  357  cd ..
+  358  mv -r licux/ /home/ec2-user/
+  359  mv  licux/ /home/ec2-user/
+  360  cd/
+  361  cd /
+  362  pwd
+  363  cd home/
+  364  cd ec2-user/
+  365  ls
+  366  rm licux
+  367  rm -r licux
+  368  ll
+  369  ls -lt
+  370  ls -lt| head -1
+  371  ls -lt| head -1 | cut  -d " " -f2
+  372  ls 
+  373  ls -lt
+  374  ls -lt| head -1 | cut  -d " " -f5
+  375  ls -lt| cut  -d " " -f5
+  376  ls -lt| awk -F " " '{print$5}'
+  377  ls -lt| awk -F " " '{print$5}'| tail n+2
+  378  ls -lt| awk -F " " '{print$5}'| tail -n+2
+  379  top
+  380  htop
+  381  ps -ef
+  382  clear
+  383  top
+  384  uname
+  385  uname -r
+  386  uname -a
+  387  htop
+  388  which htop
+  389  agt get htop
+  390  ps -aux
+  391  locate
+  392  which locate
+  393  sudo yum install locate
+  394  locate
+  395  which locate
+  396  locate abcd.txt
+  397  ls
+  398  locate abcd.txt
+  399  ls
+  400  clear
+  401  ls
+  402  ll
+  403  find . -name  "*.txt"
+  404  find . -iname  "*.txt"
+  405  find . type -f -mtime +10
+  406  find . -type f -mtime +10
+  407  find . -type f -mtime -10
+  408  find . -type f -mmin -10
+  409  find . -type f -perm 644
+  410  find . -type f -empty
+  411  find . -type f -notempty
+  412  find . -type f -not -empty
+  413  find . -type f -maxdepth 1
+  414  find . -type f -maxdepth 2
+  415  find . -type f -maxdepth 3
+  416  history
+  417  system ctl sshd start
+  418  which systemctl
+  419  systemctl sshd start
+  420  systemctl ssh start
+  421  which ssh
+  422  ls
+  423  cd linux_commands/
+  424  ls
+  425  cd
+  426  pwd
+  427  ln -s /home/ec2-user/linux_commands/sample.txt sample.txt
+  428  ln
+  429  ls
+  430  ls -lrt
+  431  cd linux_commands/
+  432  ls
+  433  ll
+  434  chmod 777 sample.txt 
+  435  ll
+  436  cd
+  437  pwd
+  438  ln -s /home/ec2-user/linux_commands/sample.txt sample.txt
+  439  ln -s /home/ec2-user/linux_commands/sample.txt sample
+  440  ll
+  441  ln  /home/ec2-user/linux_commands/sample.txt hsample
+  442  ls -i *
+  443  ll
+  444  ls cat /proc/cpuinfo
+  445  cat /proc/cpuinfo
+  446  df -ik
+  447  df -h
+  448  df -Th
+  449  lsof
+  450  cd /tmp/
+  451  df -h
+  452  du -f
+  453  du -fh
+  454  df -h
+  455  df -h /tmp/
+  456  fallocate -350M example.txt
+  457  fallocate -l 350M example.txt
+  458  cat example.txt &
+  459  cd /tmp/
+  460  df -h /tmp/
+  461  rm example.txt 
+  462  df -h /tmp/
+  463  fallocate -l 200M  process
+  464  cat process &
+  465  cd tmp
+  466  cd /tmp/
+  467  df -h /tmp/
+  468  rm process 
+  469  df -h /tmp/
+  470  ping 13.201.82.89
+  471  cd /
+  472  ls
+  473  pwd
+  474  cd /home/ec2-user/
+  475  ping 13.201.82.89
+  476  ping 172.31.6.146
+  477  hostname
+  478  telnet 172.31.6.146 22
+  479  sudo yum install teknet
+  480  sudo yum install telnet
+  481  telnet 172.31.6.146 22
+  482  telnet 172.31.6.146 80
+  483  ssh-keygen
+  484  pwd
+  485  ls -lart
+  486  cd .ssh/
+  487  ll
+  488  cat id_rsa.pub 
+  489  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC+YpTCH0OVBH8um+woDzJFmypXvSUuhjyEM2XwihT0jg21yaF2RSbCri8ldnojXX550bYGtG8piAWA7GBDM7Vm2Up2M4h8VeZzB+rbnBNl0vLkot/DeFnGHpbtG78L32b86H9zK1WCZ60e2L71IjNApCvaEVEX7/gLVg7B8ZAnIE6sqajjXh0RGbl3tlHCT3pEPz6IAEk6r0whyl4y2qvyhjWYl0OpWpbN2FGK+OzV2hlW0IpbjGiNu1PHZ1pHcqtKmK0pZIoas5r/EUTYgaz4bFD3cCwjXV/r8x34cgI52aP2ELi+bGtx9XxtF4AKGYNRL2nw9qcTg/wwi3elUhWh95SJst7EmvLLJw26s8fCB1iEK9xNkrjz7gYETH7LjKXHZuBN6jlpO8jiHXox2oUR+rp9etK1jsVdDLp+kV4dwDFxlPn4uY7hEQXH6ZMr0A8L8A91Mu8azxYiVjkEtjYK30Omer5Eg8ZahT+oAOVpWOxkcQbijBPIkTg6mUUFc8E= ec2-user@ip-172-31-0-69.ap-south-1.compute.interna
+  490  ssh 13.201.82.89
+  491  cd 
+  492  cd /home/ec2-user/
+  493  ls
+  494  ssh 13.201.82.89
+  495  cd .ssh/
+  496  ll
+  497  cat id_rsa.pub 
+  498  exit
+  499  sudo -i
+  500  sudo su devops
+  501  sudo -i
+  502  cat /etc/passwd
+  503  clear
+  504  sudo su devops
+  505  sudo -i
+  506  passwd ec2-user
+  507  sudo -i
+  508  cd .ssh/
+  509  ls
+  510  vi authorized_keys 
+  511  cd ..
+  512  ll
+  513  cd linux_commands/
+  514  ll
+  515  clear
+  516  sudo yum install nmap -y
+  517  netstat -tunlp
+  518  nmap
+  519  which httpd
+  520  sudo yum install httpd -y
+  521  systemctl status httpd
+  522  systemctl start httpd
+  523  sudo systemctl start httpd
+  524  systemctl status httpd
+  525  lsblk
+  526  cd ..
+  527  ls
+  528  history
+  529  ll
+  530  mkdir scripts
+  531  cd scripts/
+  532  ll
+  533  vi smaplescript.sh
+  534  ll
+  535  ./samplescript.sh
+  536  sh smaplescript.sh
+  537  sh smaplescript.sh Ranganath
+  538  cat smaplescript.sh 
+  539  cat smaplescript.sh > sample2.sh
+  540  ll
+  541  vi sample2.sh 
+  542  sh sample2.sh Vin Comms Linux
+  543  cp sample2.sh sample3.sh
+  544  ll
+  545  vi sample3.sh 
+  546  sh sample3.sh Vin Comms Linux
+  547  vi variables.sh
+  548  sh variables.sh 
+  549  vi variables.sh
+  550  cat variables.sh 
+  551  sh variables.sh 
+  552  cat variables.sh > variablesreplacedbyclarguments.sh
+  553  vi variablesreplacedbyclarguments.sh 
+  554  sh variablesreplacedbyclarguments.sh abc 55
+  555  cp smaplescript.sh > linuxcmds.sh
+  556  cp smaplescript.sh  linuxcmds.sh
+  557  ll
+  558  vi linuxcmds.sh 
+  559  sh linuxcmds.sh 
+  560  vi linuxcmds.sh 
+  561  sh linuxcmds.sh 
+  562  ll
+  563  vi IFex.sh
+  564  sh IFex.sh 6
+  565  sh IFex.sh 5
+  566  cp IFex.sh IFnoandcmd.sh
+  567  ll
+  568  vi IFnoandcmd.sh 
+  569  sh IFnoandcmd.sh 5
+  570  clear
+  571  vi biggestof2IF.sh
+  572  sh biggestof2IF.sh 4 5
+  573  vi biggestof2IF.sh
+  574  sh biggestof2IF.sh 4 5
+  575  vi biggestof2IF.sh
+  576  sh biggestof2IF.sh 4 5
+  577  vi biggestof2IF.sh
+  578  sh biggestof2IF.sh 4 5
+  579  vi biggestof2IF.sh
+  580  sh biggestof2IF.sh 4 5
+  581  vi biggestof2IF.sh
+  582  sh biggestof2IF.sh 4 5
+  583  cat biggestof2IF.sh 
+  584  vi biggestof2IF.sh
+  585  ls | wc -l
+  586  ll
+  587  vi IFgood.sh
+  588  sh IFgood.sh
+  589  vi IFgood.sh
+  590  sh IFgood.sh
+  591  vi IFgood.sh
+  592  sh IFgood.sh
+  593  vi biggestof3.sh
+  594  sh biggestof3.sh 8 5 9
+  595  cat biggestof3.sh 
+  596  sh biggestof3.sh 8 5 9
+  597  clear
+  598  pwd
+  599  ll
+  600  mv biggestof3.sh biggestof3IFELSE.sh
+  601  ll
+  602  sudo yum install git -y
+  603  which git
+  604  where is git
+  605  whereis git
+  606  git --version
+  607  ls
+  608  cd scripts/
+  609  ll
+  610  echo "# shellscripts" >> README.md
+  611  ll
+  612  git init
+  613  ls -la
+  614  git add README.md
+  615  ll
+  616  git add *
+  617  git commit -m "first commit"
+  618  git branch -M master
+  619  git remote add origin https://github.com/Techguy877/shellscripts.git
+  620  git push -u origin master
+  621  history > history.txt
